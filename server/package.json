@@ -5,15 +5,18 @@
   "dependencies": {
     "@prisma/client": "2.16.0",
     "apollo-server": "^2.19.2",
+    "apollo-server-express": "^2.21.0",
     "bcryptjs": "^2.4.3",
     "graphql": "^15.5.0",
+    "graphql-upload": "^11.0.0",
     "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
+    "nodemon": "^2.0.7",
     "prisma": "2.16.0"
   },
   "scripts": {
-    "dev": "node ./script.js"
+    "dev": "nodemon ."
   },
   "engines": {
     "node": ">=10.0.0"
